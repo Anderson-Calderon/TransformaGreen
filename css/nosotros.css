@@ -1,0 +1,338 @@
+
+
+/*==========================================
+
+				BANNER 
+
+============================================*/
+
+.banner{
+
+	height: 600px;
+	overflow: hidden;
+}
+.contenedor-texto{
+	background: white!important;
+	/*margin-top: 0;*/
+}
+
+.banner img{
+
+	width: 100%;
+}
+
+@media(max-width: 968px){
+
+
+	.banner{
+
+		height: 400px;
+	
+
+	}
+
+	.banner img{
+
+		height: 100%;
+		object-position: top;
+		object-fit: cover;
+
+	}
+
+}
+
+
+
+/*==========================================
+
+				NOSOTROS 
+
+============================================*/
+
+.contenedor-nosotros{
+
+	background: /*#EFEEE7;*/
+	padding: 3rem 0;
+	margin-top: 4rem;
+}
+
+.nosotros{
+
+	display: flex;
+	flex-direction: column;
+	row-gap:2rem;
+	width: 60%;
+	margin: auto;
+	
+
+}
+
+.nosotros p{
+	font-size: .9rem;
+	line-height: 1.5rem;
+	text-align: justify;
+	color: #092E6E;
+}
+
+@media(max-width: 968px){
+
+
+	.nosotros{
+
+
+	width: 65%;
+
+}
+
+
+
+
+}
+
+@media(max-width: 768px){
+
+
+	.nosotros{
+
+		width: 75%;
+	
+
+}
+
+
+
+
+}
+
+@media(max-width: 468px){
+
+
+	.nosotros{
+
+		width: 85%;
+	
+
+}
+
+
+
+
+}
+
+
+/*==========================================
+
+				BANNER DE TEXTO
+
+============================================*/
+
+section.texto{
+
+	background-color: #EFEEE7;
+	padding: 10rem 0;
+	margin: 4rem 0 0 0;
+	border-bottom: 2px solid white;
+
+
+}
+
+section.texto > div{
+
+	width: 60%;
+	margin: auto;
+
+}
+
+
+section.texto h2{
+
+	text-align: center;
+	font-size: 40px;
+	color: var(--color-principal);
+	font-weight: 700;
+}
+
+
+
+@media(max-width: 962px){
+
+section.texto > div{
+
+		width: 80%;
+
+
+
+}
+
+
+}
+
+@media(max-width: 768px){
+
+section.texto > div{
+
+	
+	 width: 80%;
+
+
+}
+
+
+section.texto h2{
+
+	
+	font-size: 45px;
+	
+}
+
+
+}
+
+@media(max-width: 468px){
+
+section.texto > div{
+
+	
+	width: 90%;
+
+
+}
+
+
+section.texto h2{
+
+	
+	font-size: 40px;
+	
+}
+
+
+}
+
+
+
+
+/*==========================================
+
+			MISIÓN Y VISIÓN
+
+============================================*/
+
+.mision-vision{
+
+	display: flex;
+	justify-content: space-between;
+	column-gap: 4rem;
+	width: 60%;
+	color: #092E6E;
+	margin-top: 6rem;
+
+}
+
+.mision-vision  div{
+
+	display: flex;
+	
+	flex-direction: column;
+
+	align-items: center;
+
+	row-gap:2rem;
+
+
+	width: 50%;
+
+}
+
+
+
+.mision-vision p{
+
+
+	text-align: justify;
+	
+	font-size: .9rem;
+	line-height: 1.5rem;
+	
+}
+
+
+@media(max-width: 968px){
+
+	.mision-vision{
+
+		width: 75%;
+
+
+}
+
+
+}
+
+@media(max-width: 768px){
+
+
+
+	.mision-vision{
+
+	
+		flex-direction: column;
+		
+		
+	
+	
+
+	}
+
+	.mision-vision > div{
+
+		margin-bottom: 4rem;
+		width: 100%;
+	}
+
+
+}
+
+
+
+
+
+/*==========================================
+
+				FOOTER
+
+============================================*/
+
+
+footer{
+
+	width: 60%;
+}
+
+
+@media(max-width: 968px){
+
+	footer{
+
+	
+		width: 75%;
+
+}
+
+
+}
+
+
+@media(max-width: 768px){
+
+	footer{
+
+	
+		width: 70%;
+
+}
+
+
+}
+
+

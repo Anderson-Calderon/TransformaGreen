@@ -1,0 +1,223 @@
+
+
+/*==========================================
+
+				GLOBAL
+
+============================================*/
+
+
+
+.boton{
+
+	width: 100px;
+	text-align: center;
+	margin: auto;
+
+}
+
+.texto{
+
+	background-image: url(https://www.henkel.es/resource/image/1084248/16x9/1920/1080/7a7530443937d70f83dbb22c6423158c/F34BFB3EAF33429AAFA08601DD0B63E2/2020-06-05-d%C3%ADa-mundial-del-medio-ambiente-jpg.webp);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;;
+}
+
+
+.texto h2{
+
+	color: white!important;
+	text-shadow: 1px 1px 3px rgba(0,0,0,.5);
+}
+
+
+
+/*==========================================
+
+				BANNER 
+
+============================================*/
+
+.banner-unirme{
+
+	height: 600px;
+	background: url(https://infomercado.pe/wp-content/uploads/2022/10/62FA2KAQVVG3JID5DQ5NHIWBLQ.jpeg) no-repeat;
+	background-size: cover;
+	background-position: center;
+
+
+}
+
+
+
+@media(max-width: 1100px){
+
+	.banner-unirme{
+
+	height: 450px;
+	background-size: cover;
+
+
+}
+
+
+}
+
+
+@media(max-width: 768px){
+
+	.banner-unirme{
+
+	background-position: center;
+	margin-top: 119.75px;
+
+
+}
+
+
+}
+
+
+@media(max-width: 600px){
+
+	.banner-unirme{
+
+	background-position:-5rem  center ;
+
+
+
+}
+
+
+}
+
+@media(max-width: 468px){
+
+	.banner-unirme{
+
+	background-size: 120%;
+	background-position: center;
+	height: 230px;
+
+
+
+}
+
+
+}
+
+
+
+/*==========================================
+
+				VOLUNTARIADO
+
+============================================*/
+
+.voluntariado {
+
+	margin: auto;
+
+}
+
+
+/*==========================================
+
+				SPONSORS
+
+============================================*/
+
+.sponsors{
+
+	margin: 5rem 0;
+	padding: 2rem 0;
+	background: #EFEEE7;
+}
+
+.sponsors > div{
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap:6rem;
+
+}
+
+.sponsors > div > div{
+
+
+	display: flex;
+	justify-content: center;
+	column-gap: 5rem;
+}
+
+@media(max-width: 820px){
+
+	.sponsors > div > div{
+
+
+	column-gap: 1rem;
+}
+
+}
+
+@media(max-width: 768px){
+
+	.sponsors > div{
+
+	
+	row-gap:1rem;
+}
+
+	.sponsors > div > div{
+
+
+		flex-direction: column;
+		column-gap: 0;
+}
+
+}
+
+/*==========================================
+
+				CONTACTANOS
+
+============================================*/
+
+
+.contactanos{
+
+	margin: 5rem 0;
+}
+
+.contactanos > div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	row-gap:3rem;
+	width: 60%;
+}
+
+.contactanos p{
+
+	font-size: .9rem;
+	line-height: 1.5rem;
+	text-align: justify;
+}
+
+@media(max-width: 468px){
+
+	.contactanos > div{
+	
+	width: 85%;
+}
+
+.titulo-h2{
+
+	font-size: 1.6rem;
+}
+
+}
+
